@@ -7,7 +7,7 @@ Android状态反馈页面管理框架，根据需求切换状态页面，全面�
 |---|---|
 |`StateBox.class`|页面配置入口，配合Config内部类，将预先配置的状态页面注入到指定View上|
 |`BoxManager.class`|状态页面调度，StateBox注入状态页面后，会返回一个BoxManager管理器，用来调度状态页面的切换
-|`BaseStateView.class`|抽象类，标识用户动态授权时勾选“不再询问”选项时则回调该方法|
+|`BaseStateView.class`|抽象类，用户自定义状态页面必须继承此父类，支持自定义View和layout方式生成页面|
 
 
 ## 依赖配置
