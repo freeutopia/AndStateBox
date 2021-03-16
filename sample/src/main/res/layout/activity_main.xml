@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_root_view"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/sd_permission_test_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getAllSdcardFiles"
+        android:text="获取sd卡读写权限" />
+
+    <Button
+        android:id="@+id/cammer_permission_test_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="useCammer"
+        android:text="获取相机使用权限" />
+</LinearLayout>
